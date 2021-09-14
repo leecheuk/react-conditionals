@@ -1,6 +1,6 @@
-# React conditionals
+# React conditional
 
-React conditionals is for rendering components conditionally.
+React conditional are components for rendering components conditionally.
 
 ## Installation
 ```bash
@@ -11,12 +11,14 @@ $ npm install react-conditionals
 ```tsx
 import { RxIf } from 'react-conditionals';
 
-const arr = [];
+const SHOW_NAME = false;
 
 const App = () => (
-  <RxIf conditional={arr.length > 0}>
-    
-  </RxIf>
+  <div>
+    <RxIf condition={SHOW_NAME}>
+      <span>John Doe</span>
+    </RxIf>
+  </div>
 );
 
 export default App;

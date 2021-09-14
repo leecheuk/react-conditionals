@@ -1,5 +1,5 @@
 {
-  "name": "react-conditionals",
+  "name": "conditional-react-components",
   "version": "0.1.0",
   "description": "React conditional components",
   "main": "./lib/cjs/index.js",
@@ -15,6 +15,7 @@
     "name": "Cheuk Lee",
     "email": "dev.cheuk.lee@gmail.com"
   },
+  "keywords": ["react"],
   "files": [
     "/lib"
   ],
