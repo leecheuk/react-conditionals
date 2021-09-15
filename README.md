@@ -4,12 +4,12 @@ React conditional are components for rendering components conditionally.
 
 ## Installation
 ```bash
-$ npm install react-conditionals
+$ npm install conditional-react-components
 ```
 
 ## Usage
 ```tsx
-import { RxIf } from 'react-conditionals';
+import { RxIf } from 'conditional-react-components';
 
 const SHOW_NAME = false;
 
